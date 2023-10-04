@@ -22,5 +22,11 @@ return {
 	"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
 	"tpope/vim-surround", -- Surround stuff with the ys-, cs-, ds- commands
 
-	"elkowar/yuck.vim" -- yuck
+	"elkowar/yuck.vim", -- yuck
+	{
+		"norcalli/nvim-colorizer.lua", --color
+		-- config = function ()
+		-- 	require("nvim-colorizer.lua").setup()
+		-- end
+	}
 }
